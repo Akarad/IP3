@@ -155,7 +155,7 @@ p {
   height: 138px;
 }
 
-portfolio-inner p{
+.portfolio-inner p{
   display: none;
 }
 

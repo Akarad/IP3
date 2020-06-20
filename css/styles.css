@@ -144,18 +144,19 @@ p {
   text-transform: uppercase;
   margin-left: 100px;
   margin-right: 100px;
+
 }
 
 .portfolio h2 {
   text-align: center;
 }
 
-.portfolio-inner img {
+.portfolio-item img {
   width: 172px;
   height: 138px;
 }
 
-.portfolio-inner p{
+.portfolio-item p{
   display: none;
 }
 

@@ -196,13 +196,18 @@ p {
 
 .subtitle{
   position: absolute;
-  color: red;
+  color: gold;
+  text-shadow: 2px color black;
   bottom: 0;
   width: 270px;
   height: 250px;
   padding: 75px 25px;
   display: none;
-  font-size: 60px;
+}
+
+.subtitle h2{
+  font-weight: 600;
+  font-size: 35px;
 }
 
 .portfolio-item:hover .subtitle{

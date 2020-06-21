@@ -135,6 +135,7 @@ p {
 .portfolio {
   text-transform: uppercase;
   background-color: white;
+  padding: 50px 50px 50px 50px;
 }
 
 .portfolio h2 {
@@ -148,19 +149,19 @@ p {
   font-family: 'Noto Sans', sans-serif;
 }
 .portfolio-items-wrapper{
-  width: 80%;
+  width: 10%;
   height: auto;
   padding: 10px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 5px;
+  grid-gap: 10px;
 }
 
 .portfolio-item {
-  width: 270px;
-  height: 150px;
+  width: 201px;
+  height: 197px;
   position: relative;
-  margin: 10px auto;
+  margin: 20px auto;
 }
 
 .portfolio-item img{
@@ -200,15 +201,16 @@ p {
   position: absolute;
   color: gold;
   bottom: 0;
-  width: 270px;
-  height: 250px;
+  width: 201px;
+  height: 205px;
   padding:100px 55px;
   display: none;
 }
 
 .subtitle h2{
   font-weight: 600;
-  font-size: 25px;
+  font-size: 20px;
+  text-align: center;
 }
 
 .portfolio-item:hover .subtitle{

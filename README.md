@@ -1,6 +1,6 @@
 # DELANI STUDIO
 
-This build is a web application designed for Delani Studio Company. It showcases various features such as hover effect and toggle effect. Mailchimp API has been intergrated to the HTML in order to collect user's data.
+This build is a web application designed for Delani Studio Company. It showcases various effects such as hover and effect which both make use of jQuery. Mailchimp API has been intergrated to the HTML in order to collect user's data. Google fonts have also been used in the site.
 
 # **AUTHOR**
 [Akarad](https://github.com/Akarad)

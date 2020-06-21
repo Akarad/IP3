@@ -128,36 +128,37 @@ p {
   height: 70px;
 }
 
-.row{
-  margin: 6px 0;
-}
-
-.column {
-  display: table-cell;
-  padding: 8px;
-  width: 24.3333%;
-  border-right: 8px solid #fff;
-  border-left: 8px solid #fff;
-}
-
 .portfolio {
   text-transform: uppercase;
   margin-left: 100px;
   margin-right: 100px;
-
 }
 
 .portfolio h2 {
   text-align: center;
 }
 
-.portfolio-item img {
-  width: 172px;
-  height: 138px;
+.portfolio-items-wrapper{
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
 }
 
-.portfolio-item p{
-  display: none;
+.portfolio-item {
+  width: 270px;
+  height: 250px;
+  position: relative;
+  background-color: red;
+  margin: 10px auto;
+}
+
+.portfolio-item img{
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 social-icons {

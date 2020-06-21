@@ -231,6 +231,15 @@ footer{
 
 /* MEDIA QUERIES */
 
-@media (max-width: 960px)
-.container
-width: auto
+@media screen and (min-width: 480px) and (max-width: 767px){
+  .container {
+    width: auto;
+    }
+  }
+@media screen and (min-width: 768px) {
+  .column {
+    width: 220px;
+    float: left;
+    padding: 15px
+  }
+}

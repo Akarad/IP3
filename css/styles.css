@@ -7,7 +7,7 @@ html {
 }
 body{
   margin: 0 230px;
-  /* background-color: #000; */
+  background-color: #000;
 }
 
 h1 {
@@ -67,10 +67,13 @@ p {
 .work {
   text-align: center;
   padding: 50px 100px 55px 100px;
+  background-color: white;
 }
 
 .work h2 {
   padding-bottom: 10px;
+  font-weight: bolder;
+  font-size: 20px;
 }
 
 .work p{
@@ -121,6 +124,7 @@ p {
 .about{
   text-align: center;
   padding: 50px 100px 55px 100px;
+  background-color: white;
 }
 
 .about img {
@@ -130,8 +134,7 @@ p {
 
 .portfolio {
   text-transform: uppercase;
-  /* margin-left: 10px;
-  margin-right: 10px; */
+  background-color: white;
 }
 
 .portfolio h2 {
@@ -147,20 +150,17 @@ p {
 .portfolio-items-wrapper{
   width: 80%;
   height: auto;
-  padding: 20px;
+  padding: 10px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 20px;
+  grid-gap: 5px;
 }
 
 .portfolio-item {
-  width: 240px;
-  height: 220px;
+  width: 270px;
+  height: 150px;
   position: relative;
-  background-color: white;
   margin: 10px auto;
-  justify-content: center;
-  align-items: center;
 }
 
 .portfolio-item img{
@@ -199,25 +199,30 @@ p {
 .subtitle{
   position: absolute;
   color: gold;
-  text-shadow: 2px color black;
   bottom: 0;
   width: 270px;
   height: 250px;
-  padding: 75px 25px;
+  padding:100px 55px;
   display: none;
 }
 
 .subtitle h2{
   font-weight: 600;
-  font-size: 35px;
+  font-size: 25px;
 }
 
 .portfolio-item:hover .subtitle{
   display: block;
   background-color: white;
-  opacity: .8;
+  opacity: .7;
 }
 
 footer{
   text-align: center;
+  background-color: white;
+  padding: 50px 100px 55px 100px;
+}
+
+.copyright {
+  padding: 50px 100px 55px 100px;
 }

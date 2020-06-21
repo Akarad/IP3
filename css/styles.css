@@ -192,6 +192,17 @@ p {
   transform: scale(1, 1.05);
 }
 
+.subtitle{
+  position: absolute;
+  color: white;
+  bottom: 0;
+  width: 270px;
+  height: 250px;
+  padding: 75px 25px;
+  display: none;
+
+}
+
 social-icons {
   align-items: center;
 }

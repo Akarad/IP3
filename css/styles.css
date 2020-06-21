@@ -157,7 +157,7 @@ p {
   width: 270px;
   height: 250px;
   position: relative;
-  background-color: red;
+  background-color: white;
   margin: 10px auto;
 }
 
@@ -179,7 +179,9 @@ p {
 
 .portfolio-item::before{
   border-top: 2px dashed white;
+  border-bottom: 2px dashed white;
   border-right: 2px dashed white;
+  border-left: 2px dashed white;
   transform: scale(1, 0);
 }
 
@@ -194,17 +196,19 @@ p {
 
 .subtitle{
   position: absolute;
-  color: white;
+  color: red;
   bottom: 0;
   width: 270px;
   height: 250px;
   padding: 75px 25px;
   display: none;
-
+  font-size: 60px;
 }
 
-social-icons {
-  align-items: center;
+.portfolio-item:hover .subtitle{
+  display: block;
+  background-color: white;
+  opacity: .8;
 }
 
 footer{
